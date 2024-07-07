@@ -31,5 +31,5 @@ Navigate to http://localhost:9000
 - The web page will automatically connect to the server and display any messages sent by the server.
 
 <p align="center">
-  <img src="https://pub.anw.sh/59e17a94" style="width:600px" />
+  <img src="https://pub.anw.sh/sse.jpg" style="width:600px" />
 </p>
