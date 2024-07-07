@@ -25,11 +25,11 @@ go mod tidy
 go run .
 ```
 
-Navigator to:
-
-```sh
-http://localhost:9000
-```
+Navigate to http://localhost:9000
 
 - The server will send periodic messages to the client, which will be displayed on the web page.
 - The web page will automatically connect to the server and display any messages sent by the server.
+
+<p align="center">
+  <img src="https://pub.anw.sh/59e17a94" style="width:600px" />
+</p>
