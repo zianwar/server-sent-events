@@ -106,9 +106,9 @@ func main() {
 	broker := NewBroker()
 	go broker.Start()
 
+	// Simulate broadcasting events to all clients
 	go func() {
-		// Simulate broadcasting events to all clients
-		for i := 0; i < 100; i++ {
+		for {
 			time.Sleep(2 * time.Second)
 			broker.SendMessage(fmt.Sprintf("%v\n", time.Now().Format(time.RFC1123)))
 		}
